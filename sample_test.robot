@@ -26,11 +26,11 @@ Example of connecting to Sauce via Robot Framework
 
 	Go to  https://saucelabs.com/login
 
-	Page should contain element  id=username
-	Page should contain element  id=password
+	Page should contain element  name=username
+	Page should contain element  name=password
 
-	Input text  id=username  anonymous
-	Input text  id=password  secret
+	Input text  name=username  anonymous
+	Input text  name=password  secret
 	Click button  id=submit
 
 *** Keywords ***
